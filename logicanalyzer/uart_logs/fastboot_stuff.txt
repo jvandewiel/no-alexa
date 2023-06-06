@@ -1,0 +1,44 @@
+# Fastboot
+
+./fastboot devices -l
+```
+G091B00503130KCE       fastboot
+ usb:1-4
+```
+
+./fastboot getvar all
+```
+(bootloader) 	antirback_tee_version: 0x0001
+(bootloader) 	antirback_lk_version: 0x0001
+(bootloader) 	antirback_pl_version: 0x0001
+(bootloader) 	lk_build_desc: 8f885ae-20210414_064357
+(bootloader) 	pl_build_desc: eb725ec-20210326_040236
+(bootloader) 	secure: yes
+(bootloader) 	prod: 1
+(bootloader) 	otu_code: puuB/4JABnGMmpSbJQK8Wd0CyWcmTkDR
+(bootloader) 	unlock_status: false
+(bootloader) 	unlock_code: 0xd58685aa6020178c
+(bootloader) 	serialno: G091B00503130KCE
+(bootloader) 	max-download-size: 0x8000000
+(bootloader) 	kernel: lk
+(bootloader) 	product: CRUMPET
+(bootloader) 	version-preloader: 0.1.00
+(bootloader) 	version: 0.5
+all: Done!!
+Finished. Total time: 0.021s
+```
+
+UART
+```
+[84581] [fastboot: command buf]-[getvar:all]-[len=10]
+[84581] [fastboot]-[download_base:0x45000000]-[download_size:0x0]
+amzn_verify_onetime_unlock_code: Verify one time unlock cert fail, ret = -5
+[84591] [Cmd process]-[buf:getvar:all]-[lenBuf:all]
+amzn_verify_onetime_unlock_code: Verify one time unlock cert fail, ret = -5
+```
+
+./fastboot oem * 
+
+All are `FAILED (remote: 'the command you input is restricted on locked hw')`
+
+# Fastboot with USB and MT

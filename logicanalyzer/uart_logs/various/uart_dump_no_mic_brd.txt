@@ -1,0 +1,1006 @@
+PWRAP: OK(0)
+[PLFM] Init PMIC: OK(0)
+Device APC d0x0)
+Domain Setup (0x0)
+Device APC dotup:
+Domain Setup (0x100000)
+Domain S 0xFFFFFF00
+after CLK_GATEING_CTRL2: 0xBFFFFF00
+Long Pressed setting
+[PLFM] Init I2C: OK(0)
+[PLFMPWRAP: OK(0)
+[PLFM] Init PMIC: OK(0)
+
+Device APC dom0x0)
+Domain Setup (0x0)
+Device APC domain afttup:
+Domain Setup (0x100000)
+Domain Setup (0x0)
+[PLFM] chipR] Build Time: 20190926_190455
+==== Dump RGU Reg ========
+RGU MODE:     4D
+RGU LENGTH:   FFE0
+RGU STA:      0
+RGU INTERVAL: FFF
+RGU SWSYSRST: 8000
+==== Dump RGU Reg End ====
+RGU: g_rgu_satus:0
+ mtk_wdt_mode_config  mode value=10, tmp:22000010
+PL P ON
+WDT does not trigger reboot
+RGU mtk_wdt_init:MTK_WDT_DEBUG_CTL(590200F3)
+Enter mtk_kpd_gpio_set! 
+after set KP enable: KP_SEL = 0x1C70 !
+!!wait bsi read done!!
+BSI Read Done: value = 0x0
+BSI_write: wrdat = 0x400004
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x4
+BSI_write: wrdat = 0x400006
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x0
+BSI_write: wrdat = 0x702000
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x2000
+BSI_write: wrdat = 0x703000
+!!wait bsi write done!!
+BSI Write Done
+power key is pressed
+No Battery
+[PLFM] Power key boot!
+!!wait bsi read done!!
+BSI Read Done: value = 0x8347
+!!wait bsi read done!!
+BSI Read Done: value = 0x301
+[xo] default cap_code: 0x30
+[xo] get xo efuse: A5000000
+!!wait bsi read done!!
+BSI Read Done: value = 0x3304
+BSI_write: wrdat = 0x902304
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x2304
+BSI_write: wrdat = 0x902254
+!!wait bsi write done!!
+BSI Write Done
+BSI_write: wrdat = 0x100C00
+!!wait bsi write done!!
+BSI Write Done
+BSI_write: wrdat = 0x100400
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0xA89B
+BSI_write: wrdat = 0x1F0A893
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0xA893
+BSI_write: wrdat = 0x1F0A892
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0xC00
+BSI_write: wrdat = 0x1E05C00
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0xA89B
+BSI_write: wrdat = 0x4B0A893
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0xA893
+BSI_write: wrdat = 0x4B0A892
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0xC00
+BSI_write: wrdat = 0x4A05C00
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x2A47
+!!wait bsi read done!!
+BSI Read Done: value = 0x701
+[xo] current cap_code: 0x25
+[xo] disable XO to PMIC 26M
+!!wait bsi read done!!
+BSI Read Done: value = 0x6
+BSI_write: wrdat = 0x400006
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x6
+BSI_write: wrdat = 0x400004
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x3000
+BSI_write: wrdat = 0x703000
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x3000
+BSI_write: wrdat = 0x702000
+!!wait bsi write done!!
+BSI Write Done
+[xo] Without 32K. Reg[0x402]=0x3634
+!!wait bsi read done!!
+BSI Read Done: value = 0x7AAB
+BSI_write: wrdat = 0x2506AAB
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x6AAB
+[Preloader] BSI read: [0x25] = 0x6AAB
+!!wait bsi read done!!
+BSI Read Done: value = 0x0
+BSI_write: wrdat = 0x2900001
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x1
+[Preloader] BSI read: [0x29] = 0x1
+!!wait bsi read done!!
+BSI Read Done: value = 0x1
+BSI_write: wrdat = 0x2900000
+!!wait bsi write done!!
+BSI Write Done
+!!wait bsi read done!!
+BSI Read Done: value = 0x0
+[Preloader] BSI read: [0x29] = 0x0
+!!wait bsi read done!!
+BSI Read Done: value = 0xF0
+[xo] status: 0xF
+Preloader detects Board ID 0x0 and 16 bits DRAM type
+[EMI] MDL number = 1 
+[EMI] PCDDR3
+get dram size from AUXADC1 520 1
+[EMI] Use Common DDR3 x16 emi settings 
+[EMI] Config emi settings:
+EMI_CONA=0x1010,   EMI_CONH=0x3
+EMI_RAMK0=0x10000000, EMI_RAMK1=0x0
+EMI_CONA=0x1010
+EMI_CONF=0x4210000
+EMI_CONH=0x3
+DQ DRVP=7 ,DRVN=6
+DQS DRVP=7 ,DRVN=6
+CMD DRVP=7 ,DRVN=6
+CLK DRVP=7 ,DRVN=6
+
+[DramcSwImpedanceCal] FINAL: DRVP=7, DRVN=6
+
+PCDDR3 Pinmux 0
+SSC OFF
+DRAM Clock: 1560MHz
+change tRCD for DDR3
+multi sample wl support
+
+[Write Leveling]
+WriteLevelingMoveDQSInsteadOfCLK
+===============================================================================
+Dram Type= 4, Freqency= 1560, rank 0
+odt_onoff= 0, Byte mode= 0, Read_DBI= 0, Write DBI= 0 
+===============================================================================
+WL Clk delay = 0, CA CLK delay = 0
+No need to update CA/CS delay because the CLK delay is small than CA training.
+Final Clk output delay = 0
+R0 FINAL: WriteLeveling DQS:(2, 0) OEN:(1, 2) DQS0 delay =  35
+R0 FINAL: WriteLeveling DQS:(2, 0) OEN:(1, 2) DQS1 delay =  32
+[DramcWriteLeveling] ====Done====
+
+[Gating]
+===============================================================================
+Dram Type= 4, Freqency= 1560, rank 0
+odt_onoff= 0, Byte mode= 0, Read_DBI= 0, Write DBI= 0 
+===============================================================================
+[Byte 0]First pass (1, 3, 4)
+[Byte 1]First pass (1, 3, 6)
+[Byte 0]Bigger pass win(1, 4, 31)  Pass tap=59
+[Byte 1]Bigger pass win(1, 5, 2)  Pass tap=60
+===============================================================================
+    dqs input gating widnow, final delay value
+    Frequency=1560  rank=0
+===============================================================================
+R0 FINAL: GW best DQS0 P0 delay(2T, 0.5T, PI) = (1, 4, 1) [tap = 59]
+R0 FINAL: GW best DQS1 P0 delay(2T, 0.5T, PI) = (1, 4, 4) [tap = 60]
+R0 FINAL: GW best DQS0 P1 delay(2T, 0.5T, PI) = (1, 6, 1)
+R0 FINAL: GW best DQS1 P1 delay(2T, 0.5T, PI) = (1, 6, 4)
+[DramcRxdqsGatingCal] ====Done====
+
+[DATLAT]
+DATLAT Default value = 0xF
+5, 0x0000FFFF, sum=0
+6, 0x0000FFFF, sum=0
+7, 0x0000FFFF, sum=0
+8, 0x0000FFFF, sum=0
+9, 0x0000FFFF, sum=0
+10, 0x0000FFFF, sum=0
+11, 0x0000FFFF, sum=0
+12, 0x0000FFFF, sum=0
+13, 0x00000000, sum=1
+14, 0x00000000, sum=2
+15, 0x00000000, sum=3
+16, 0x00000000, sum=4
+17, 0x00000000, sum=5
+pattern=5 first_step=13 total pass=6 best_step=15
+R0 FINAL: DATLAT = 15 [13 ~ 18]
+[DramcRxdatlatCal] ====Done====
+multi pattern K for rx
+
+[RX]
+===============================================================================
+Dram Type= 4, Freqency= 1560, rank 0
+odt_onoff= 0, Byte mode= 0, Read_DBI= 0, Write DBI= 0 
+===============================================================================
+RX Window Sum 519
+R0 FINAL: RX Bit 0, 14 (-3 ~ 31) 35
+R0 FINAL: RX Bit 1, 13 (-3 ~ 29) 33
+R0 FINAL: RX Bit 2, 14 (-2 ~ 31) 34
+R0 FINAL: RX Bit 3, 15 (-1 ~ 31) 33
+R0 FINAL: RX Bit 4, 14 (-1 ~ 30) 32
+R0 FINAL: RX Bit 5, 15 (-1 ~ 31) 33
+R0 FINAL: RX Bit 6, 14 (-2 ~ 31) 34
+R0 FINAL: RX Bit 7, 13 (-3 ~ 29) 33
+R0 FINAL: RX Bit 8, 15 (-1 ~ 32) 34
+R0 FINAL: RX Bit 9, 16 (-1 ~ 33) 35
+R0 FINAL: RX Bit 10, 15 (-1 ~ 32) 34
+R0 FINAL: RX Bit 11, 14 (-2 ~ 31) 34
+R0 FINAL: RX Bit 12, 14 (-1 ~ 29) 31
+R0 FINAL: RX Bit 13, 15 (-1 ~ 32) 34
+R0 FINAL: RX Bit 14, 15 (-1 ~ 31) 33
+R0 FINAL: RX Bit 15, 15 (-1 ~ 31) 33
+===============================================================================
+Dram Type= 4, Freqency= 1560, rank 0
+odt_onoff= 0, Byte mode= 0, Read_DBI= 0, Write DBI= 0 
+===============================================================================
+DQS Delay :
+DQS0 = 0, DQS1 = 0, DQS2 = 0, DQS3 = 0
+DQM Delay :
+DQM0 = 14, DQM1 = 14, DQM2 = 0, DQM3 = 0
+DQ Delay :
+DQ0 =14, DQ1 =13, DQ2 =14, DQ3 =15 
+DQ4 =14, DQ5 =15, DQ6 =14, DQ7 =13 
+DQ8 =15, DQ9 =16, DQ10 =15, DQ11 =14 
+DQ12 =14, DQ13 =15, DQ14 =15, DQ15 =15 
+________________________________________________________________________
+[DramcRxWindowPerbitCal] ====Done====
+multi pattern K for tx
+
+[TX]
+[DramcTxWindowPerbitCal] Frequency=1560, Rank=0, calType=2
+[DramcTxWindowPerbitCal] Begin, TX DQ(2, 0),  DQ OEN(1, 2)
+TX Window Sum 440
+===============================================================================
+Dram Type= 4, Freqency= 1560, rank 0
+odt_onoff= 0, Byte mode= 0, Read_DBI= 0, Write DBI= 0 
+===============================================================================
+R0 FINAL: TX Bit0 (37~63) 27 50,   Bit8 (36~64) 29 50,
+R0 FINAL: TX Bit1 (36~63) 28 49,   Bit9 (37~64) 28 50,
+R0 FINAL: TX Bit2 (37~64) 28 50,   Bit10 (36~64) 29 50,
+R0 FINAL: TX Bit3 (37~63) 27 50,   Bit11 (37~64) 28 50,
+R0 FINAL: TX Bit4 (37~63) 27 50,   Bit12 (37~63) 27 50,
+R0 FINAL: TX Bit5 (38~63) 26 50,   Bit13 (37~64) 28 50,
+R0 FINAL: TX Bit6 (37~63) 27 50,   Bit14 (36~63) 28 49,
+R0 FINAL: TX Bit7 (37~63) 27 50,   Bit15 (38~63) 26 50,
+
+==================================================================
+Byte0, PI DQ Delay 49 Delay2 50
+Final DQ PI Delay(LargeUI, SmallUI, PI) =(2 ,0, 50)
+OEN DQ PI Delay(LargeUI, SmallUI, PI) =(1 ,2, 50)
+
+Byte1, PI DQ Delay 49 Delay2 50
+Final DQ PI Delay(LargeUI, SmallUI, PI) =(2 ,0, 50)
+OEN DQ PI Delay(LargeUI, SmallUI, PI) =(1 ,2, 50)
+
+[DramcTxWindowPerbitCal] ====Done====
+[DramcRxdqsGatingPostProcess] p->frequency 1560
+[DramcRxdqsGatingPostProcess] s1ChangeDQSINCTL 0, reg_TX_dly_DQSgated_min 3, u1TXDLY_Cal_min 3
+
+[MEM_TEST] 01: Before run time config
+0:dram_rank_size:10000000
+[MEM_TEST] Rank 0 OK. (uiFixedAddr 0x40000000, Pass count =16384, Fail count =0)
+
+Settings after calibration ...
+=== [DramcRunTimeConfig] ===
+ZQCS_ENABLE_LP3: ON
+LOWPOWER_GOLDEN_SETTINGS(DCM): ON
+SPM_CONTROL_AFTERK: ON
+TEMP_SENSOR_ENABLE: OFF
+ENABLE_PER_BANK_REFRESH: OFF
+HW_SAVE_FOR_SR: OFF
+=========================
+
+[MEM_TEST] 01: After run time config
+0:dram_rank_size:10000000
+[MEM_TEST] Rank 0 OK. (uiFixedAddr 0x40000000, Pass count =16384, Fail count =0)
+memory test start address = 0x40000000, test length = 0x2000
+[MEM] complex R/W mem test pass
+0:dram_rank_size:10000000
+[Dram_Buffer] dram size: 0x10000000 
+[Dram_Buffer] dram_buf_t size: 0x1897C0 
+[Dram_Buffer] part_hdr_t size: 0x200 
+[Dram_Buffer] g_dram_buf start addr: 0x42000000 
+RAM_CONSOLE using default
+RAM_CONSOLE start: 0x44400000, size: 0x10000, sig: 0xD3DFEAB7
+RAM_CONSOLE wdt status (0x0)=0x0
+NAND INFO:mtk_nand_flash_get 429: nand id: C2 DC 90 A2 57 3
+NAND INFO:mtk_nand_flash_get 434: nand found [MX30LF4G28AD]
+NAND INFO:mtk_nfc_nand_chip_init 1746: nand chip init done
+NAND INFO:mtk_search_bbt 209: Bad block table found at page 131008, version 1, i 1
+NAND INFO:mtk_search_bbt 209: Bad block table found at page 130944, version 1, i 2
+NAND INFO:mtk_read_bbt 156: page:131008
+NAND INFO:mtk_read_bbt 156: page:130944
+NAND INFO:mtk_nand_default_bbt 396: BBT check total block:2048
+[PLFM] Init Boot Device: OK(0)
+0:dram_rank_size:10000000
+0:dram_rank_size:10000000
+orig_dram_info[0] start: 0x0000000040000000, size: 0x0000000010000000
+total_dram_size: 0x0000000010000000, max_dram_size: 0xFFFFFFFFFFFFFFFF
+last_lba:131071
+NAND INFO:nand_bread 245: blknr:0x1FFFE,  blks:0x1
+NAND INFO:nand_bread 280: Detect bad block at block:0x7FF
+[GPT_PL]check header, err(signature 0xB236BB7FF1BA3BF3!=0x5452415020494645)
+[GPT_PL]Parsing GPT at index 0 now...
+NAND INFO:nand_bread 245: blknr:0x3,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0x4,  blks:0x1
+[GPT_PL][0]name=brhgptpl_0, part_id=0, start_sect=0x0, nr_sects=0x40
+[GPT_PL][1]name=reserve0, part_id=1, start_sect=0x40, nr_sects=0xC0
+[GPT_PL][2]name=lk_a, part_id=2, start_sect=0x100, nr_sects=0x180
+[GPT_PL][3]name=lk_b, part_id=3, start_sect=0x280, nr_sects=0x180
+[GPT_PL][4]name=brhgptpl_1, part_id=4, start_sect=0x400, nr_sects=0x40
+[GPT_PL][5]name=reserve1, part_id=5, start_sect=0x440, nr_sects=0x1C0
+[GPT_PL][6]name=idme_nand, part_id=6, start_sect=0x600, nr_sects=0x200
+[GPT_PL][7]name=brhgptpl_2, part_id=7, start_sect=0x800, nr_sects=0x40
+[GPT_PL][8]name=reserve2, part_id=8, start_sect=0x840, nr_sects=0x1C0
+[GPT_PL][9]name=misc, part_id=9, start_sect=0xA00, nr_sects=0x200
+[GPT_PL][10]name=brhgptpl_3, part_id=10, start_sect=0xC00, nr_sects=0x40
+[GPT_PL][11]name=reserve3, part_id=11, start_sect=0xC40, nr_sects=0x1C0
+[GPT_PL][12]name=tee1, part_id=12, start_sect=0xE00, nr_sects=0x500
+[GPT_PL][13]name=boot_a, part_id=13, start_sect=0x1300, nr_sects=0xF40
+[GPT_PL][14]name=tee2, part_id=14, start_sect=0x2240, nr_sects=0x500
+[GPT_PL][15]name=boot_b, part_id=15, start_sect=0x2740, nr_sects=0xF40
+[GPT_PL][16]name=persist, part_id=16, start_sect=0x3680, nr_sects=0x800
+[GPT_PL][17]name=userdata, part_id=17, start_sect=0x3E80, nr_sects=0x1BF80
+[GPT_PL]Success to find valid GPT at 0.
+
+[PART] blksz: 4096B
+[ROM_INFO] 'v2','0x0','0x0','0x0','0x2C00'
+[SEC] AES Legacy : 0
+[SEC] SECCFG AC : 1
+
+[LIB] Loading SEC config
+[LIB] Name = 
+[LIB] Config = 0x22, 0x22
+[LIB] SECRO (ac, ac_offset, ac_length) = (0x1, 0x40, 0x40)
+0x31,0x41,0x35,0x35
+[SEC] DBGPORT 00110051 0020FFFF 00000101 00000101 0021AF1F
+[SEC] DBGPORT (0 1)
+[SEC] DBGPORT 00110051 0020FFFF 00000101 00000101 0021AF1F
+[SEC] seccfg part not found
+[BLDR] Tool connection is unlocked
+[platform_vusb_on] VUSB33 is on
+
+[PLFM] USB cable in
+[TOOL] USB enum timeout (Yes : 8000ms), handshake timeout(Yes : 2500ms)
+[USBD] USB Full Speed
+[TOOL] Enumeration(Start)
+[TOOL] Enumeration(End): TMO 501ms : 8000ms 
+[TOOL] USB enum timeout!
+
+[TOOL] <UART> wait sync time 150ms->5ms
+[TOOL] <UART> receieved data: ()
+(B)tz_dapc_sec_init is 0x0
+(E)tz_dapc_sec_init is 0x1
+NAND INFO:nand_bread 245: blknr:0xA00,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0xA40,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0xA80,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0xAC0,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0xB00,  blks:0x1
+[BCB] magic number matched at 0x100000
+read misc:  6x  8x  8x
+============================================================
+Boot Ctrl - Magic                    : 0x42424100
+Boot Ctrl - Version                  : 1
+Boot Ctrl - Recovery Tries Remaining : 0
+Boot Ctrl - Slot 0 Priority          : 15
+Boot Ctrl - Slot 0 Tries Remaining   : 0
+Boot Ctrl - Slot 0 Successful Boot   : 1
+Boot Ctrl - Slot 1 Priority          : 14
+Boot Ctrl - Slot 1 Tries Remaining   : 3
+Boot Ctrl - Slot 1 Successful Boot   : 0
+============================================================
+active_slot is 0
+NAND INFO:nand_bread 245: blknr:0x100,  blks:0x1
+[PART] partition hdr (1)
+[PART] Image with part header
+[PART] name : LK
+[PART] addr : FFFFFFFFh mode : -1
+[PART] size : 233000
+[PART] magic: 58881688h
+0:dram_rank_size:10000000
+[PART] check_part_overlapped done
+NAND INFO:nand_bread 245: blknr:0x100,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0x101,  blks:0x38
+NAND INFO:nand_bread 245: blknr:0x139,  blks:0x1
+
+[PART] load "lk_a" from 0x0000000000100200 (dev) to 0x41E00000 (mem) [SUCCESS]
+[PART] load speed: 16251KB/s, 233000 bytes, 14ms
+[PART] Verifying LK, total size (including signature) = 233000
+[VERIFY_LK] Succeed to pass the LK verification, version of LK is 0x1.
+[PART] LK authenticated with prod key
+[BLDR] check active part. of tee1 and tee2
+[BLDR] tee1 active = 0, tee2 active = 0
+[BLDR] Loading tee1 Partition...
+NAND INFO:nand_bread 245: blknr:0xE00,  blks:0x1
+[PART] partition hdr (1)
+[PART] Image with part header
+[PART] name : atf
+[PART] addr : FFFFFFFFh mode : 0
+[PART] size : 58880
+[PART] magic: 58881688h
+[PART] check_part_overlapped done
+NAND INFO:nand_bread 245: blknr:0xE00,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0xE01,  blks:0xD
+NAND INFO:nand_bread 245: blknr:0xE0E,  blks:0x1
+
+[PART] load "tee1" from 0x0000000000E00200 (dev) to 0x43001000 (mem) [SUCCESS]
+[PART] load speed: 9583KB/s, 58880 bytes, 6ms
+[BLDR_MTEE] sha256 takes 1 (ms) for 58304 bytes
+[BLDR_MTEE] rsa2048 takes 87 (ms)
+[BLDR_MTEE] verify pkcs#1 pss takes 2 (ms)
+[BLDR_MTEE] aes128cbc takes 1 (ms) for 58304
+NAND INFO:nand_bread 245: blknr:0xE0E,  blks:0x1
+[PART] partition hdr (1)
+[PART] Image with part header
+[PART] name : tee
+[PART] addr : 600000h mode : 0
+[PART] size : 2305536
+[PART] magic: 58881688h
+warning: size is not 2MB aligned
+mblock[0].start: 0x0000000040000000, sz: 0x0000000010000000, limit: 0x0000000100000000, max_addr: 0x0000000000000000, max_rank: 0, target: -1, mblock[].rank: 0
+mblock_reserve dbg[0]: 1, 1, 1, 1
+mblock_reserve: 000000004F9C0000 - 0000000050000000 from mblock 0
+[PART] check_part_overlapped done
+NAND INFO:nand_bread 245: blknr:0xE0E,  blks:0x1
+NAND INFO:nand_bread 245: blknr:0xE0F,  blks:0x232
+NAND INFO:nand_bread 245: blknr:0x1041,  blks:0x1
+
+[PART] load "tee1" from 0x0000000000E0EA00 (dev) to 0x4FA00000 (mem) [SUCCESS]
+[PART] load speed: 18157KB/s, 2305536 bytes, 124ms
+[BLDR_MTEE] sha256 takes 28 (ms) for 2304960 bytes
+[BLDR_MTEE] rsa2048 takes 88 (ms)
+[BLDR_MTEE] verify pkcs#1 pss takes 2 (ms)
+[BLDR_MTEE] aes128cbc takes 38 (ms) for 2304960
+[TZ_INIT] TEE start entry : 0x4FA00000
+[TZ_INIT] MEID : 0xD7, 0xAC, 0xB9, 0x5D
+[TZ_INIT] MEID : 0xB4, 0x53, 0xB, 0x71
+[TZ_INIT] MEID : 0x41, 0x11, 0x84, 0xF2
+[TZ_INIT] MEID : 0x1A, 0x35, 0x50, 0x45
+[BLDR] bldr load tee part ret=0x0, addr=0x43001000
+NAND INFO:nand_bread 245: blknr:0x1300,  blks:0x1
+[BLDR] part_load_raw_part ret=0x0
+[BLDR] part_load_images ret=0x0
+Detect production device
+[ANTI-ROLLBACK] Processing anti-rollback data
+
+[ANTI-ROLLBACK] PL, TEE and LK fuse version: 1
+Checking for matching binaries' version ...
+[ANTI-ROLLBACK] PL, TEE and LK sw version: 1
+[ANTI-ROLLBACK] All checks passed
+[PLFM],64S3,boot_opt=0x0
+[PLFM],32N2,boot_opt=0x6
+[PLFM],32N2,boot_opt=0x6
+smc_boot_opt: 0x0
+lk_boot_opt: 0x6
+kernel_boot_opt: 0x6
+lastpc[0][0] = 26690848
+lastpc[0][1] = FFFF3C66
+lastpc[0][2] = 2068A94A
+lastpc[0][3] = E19949D1
+lastpc[0][4] = 116CED31
+lastpc[0][5] = 7315D1E9
+lastpc[0][6] = 4D80666F
+lastpc[0][7] = F4F7C1B1
+lastpc[1][0] = 0
+lastpc[1][1] = 0
+lastpc[1][2] = 0
+lastpc[1][3] = 0
+lastpc[1][4] = 0
+lastpc[1][5] = 0
+lastpc[1][6] = 0
+lastpc[1][7] = 0
+lastpc[2][0] = 0
+lastpc[2][1] = 0
+lastpc[2][2] = 0
+lastpc[2][3] = 0
+lastpc[2][4] = 0
+lastpc[2][5] = 0
+lastpc[2][6] = 0
+lastpc[2][7] = 0
+lastpc[3][0] = 0
+lastpc[3][1] = 0
+lastpc[3][2] = 0
+lastpc[3][3] = 0
+lastpc[3][4] = 0
+lastpc[3][5] = 0
+lastpc[3][6] = 0
+lastpc[3][7] = 0
+
+[PLFM] boot to LK by ATAG.
+PL_VERSION = 0.1.00 
+BOOT_REASON: 0
+BOOT_MODE: 0
+META_COM TYPE: 0
+META_COM ID: 0
+META_COM PORT: 285237248
+LOG_COM PORT: 285233152
+LOG_COM BAUD: 921600
+LOG_COM EN: 1
+MEM_NUM: 1
+MEM_SIZE: 0xF9C0000
+mblock num: 0x1
+mblock start: 0x0000000040000000
+mblock size: 0x000000000F9C0000
+mblock rank: 0x0
+mblock start: 0x0000000000000000
+mblock size: 0x0000000000000000
+mblock rank: 0x0
+mblock start: 0x0000000000000000
+mblock size: 0x0000000000000000
+mblock rank: 0x0
+mblock start: 0x0000000000000000
+mblock size: 0x0000000000000000
+mblock rank: 0x0
+orig_dram num: 0x1
+orig_dram start: 0x0000000040000000
+orig_dram size: 0x0000000010000000
+orig_dram start: 0x0000000000000000
+orig_dram size: 0x0000000000000000
+orig_dram start: 0x0000000000000000
+orig_dram size: 0x0000000000000000
+orig_dram start: 0x0000000000000000
+orig_dram size: 0x0000000000000000
+lca start: 0x0000000000000000
+lca size: 0x0000000000000000
+tee start: 0x000000004F9C0000
+tee size: 0x0000000000040000
+MD_INFO: 0xFF
+MD_INFO: 0xB6
+MD_INFO: 0xF7
+MD_INFO: 0x5E
+BOOT_TIME: 1345
+DA_INFO: 0xBFABD295
+DA_INFO: 0x713D7E0D
+DA_INFO: 0xEDE5BBA2
+DA_INFO: 0xEEF557F7
+DA_INFO: 0xFA8FFA7F
+SEC_INFO: 0x5CFB7F9F
+SEC_INFO: 0xFCBFAEE3
+PART_NUM: 3
+PART_INFO: 0x42066A44
+EFLAG: 0
+DDR_RESERVE: 0
+DDR_RESERVE: 0
+DDR_RESERVE: 2139060182
+DRAM_BUF: 1611712
+SMC: 0x0
+SMC: 0x6
+SMC: 0x6
+SRAM satrt: 0x12C000
+SRAM size: 0x4000
+sec params sbc_enabled = 1
+sec params prod_dev    = 1
+[TZ_INIT] hwuid[0] : 0x5DB9ACD7
+[TZ_INIT] hwuid[1] : 0x710B53B4
+[TZ_INIT] hwuid[2] : 0xF2841141
+[TZ_INIT] hwuid[3] : 0x4550351A
+[TZ_INIT] HRID[0] : 0xD1C7F58F
+[TZ_INIT] HRID[1] : 0xAEC3B877
+[TZ_INIT] atf_log_port : 0x11005000
+[TZ_INIT] atf_log_baudrate : 0xE1000
+[TZ_INIT] atf_irq_num : 281
+[TZ_INIT] ATF log buffer start : 0x4F9C0000
+[TZ_INIT] ATF log buffer size : 0x40000
+[TZ_INIT] ATF aee buffer start : 0x4F9FC000
+[TZ_INIT] ATF aee buffer size : 0x4000
+[BLDR] Others, jump to ATF
+
+[BLDR] jump to 0x41E00000
+[BLDR] <0x41E00000>=0xEA000007
+[BLDR] <0x41E00004>=0xEA0069CB
+[TZ_SEC_CFG] SRAMROM Secure Addr 0x2C000
+[TZ_SEC_CFG] SRAMROM Secure Control 0x0
+[TZ_SEC_CFG] SRAMROM Secure Control 0xB69
+[TZ_SEC_CFG] SRAMROM Secure Control 0x1B680B69
+ MPU [LOCK
+[TZ_EMI_MPU] MPU [0x4FA00000-0x4FFFFFFF]
+[TZ_INIT] set secure memory protection : 0x4FA00000, 0x4FFFFFFF (OPT)
+ MPU [LOCK
+[TZ_EMI_MPU] MPU [0x43000000-0x4302FFFF]
+[TZ_INIT] set secure memory protection : 0x43000000, 0x4302FFFF
+[TZ_INIT] Jump to ATF, then 0x4FA00000 and 0x41E00000
+[ATF](0)[2.340721]NOTICE:  Boot reason 0
+[ATF](0)[2.341163]INFO:    LK is AArch32
+[ATF](0)[2.341618]INFO:    mmap atf buffer : 0x4f9c0000, 0x40000
+[ATF](0)[2.342429]INFO:    mmap atf buffer (force 2MB aligned): 0x4f800000, 0x200000
+[ATF](0)[2.344507]INFO:    abnormal_boot: 0x0, cflag: 0x66181204
+[ATF](0)[2.347957]INFO:    mt_log_setup
+[ATF](0)[2.348380]INFO:     -mt_log_buf_start: 0x4f9c0000
+[ATF](0)[2.349015]INFO:     -mt_log_buf_size: 0x40000
+[ATF](0)[2.349607]INFO:     -buf_addr: 0x4f9c0100
+[ATF](0)[2.350157]INFO:     -buf_size: 0x17f00
+[ATF](0)[2.350674]INFO:     -write_pos: 0x4f9c0100
+[ATF](0)[2.351234]INFO:     -read_pos: 0x4f9c0100
+[ATF](0)[2.351783]INFO:     -atf_buf_lock: 0x0
+[ATF](0)[2.352299]INFO:     -log_buf_end : 0x4f9d7fff
+[ATF](0)[2.352892]INFO:     -ATF_EXCEPT_BUF_SIZE_PER_CPU : 0x1000
+[ATF](0)[2.353613]INFO:     -ATF_EXCEPT_BUF_SIZE : 0x4000
+[ATF](0)[2.354249]INFO:     -PLATFORM_CORE_COUNT : 0x4
+[ATF](0)[2.354852]INFO:     -atf_except_write_pos_per_cpu[0]: 0x4f9f8000
+[ATF](0)[2.355649]INFO:     -atf_except_write_pos_per_cpu[1]: 0x4f9f9000
+[ATF](0)[2.356446]INFO:     -atf_except_write_pos_per_cpu[2]: 0x4f9fa000
+[ATF](0)[2.357243]INFO:     -atf_except_write_pos_per_cpu[3]: 0x4f9fb000
+[ATF](0)[2.358040]INFO:     -crash_flag : 0x41544641
+[ATF](0)[2.358621]INFO:     -crash_log_addr : 0x4f9d8000
+[ATF](0)[2.359246]INFO:     -crash_log_size : 0x20000
+[ATF](0)[2.359861]INFO:    ATF log service is registered (0x4f9c0000, aee:0x4f9fc000)
+[ATF](0)[2.360782]NOTICE:  BL3-1: v1.2(debug):fd1910b
+[ATF](0)[2.361374]NOTICE:  BL3-1: Built : 17:25:37, Apr 23 2019
+[ATF](0)[2.362074]NOTICE:  BL31: v1.2(debug):fd1910b
+[ATF](0)[2.362655]NOTICE:  BL31: Built : 17:25:37, Apr 23 2019
+[ATF](0)[2.363347]INFO:    [spmc_init]change to SPMC mode !!!
+[ATF](0)[2.364028]INFO:    ARM GICv2 driver initialized
+[ATF](0)[2.364643]INFO:    BL31: Initializing runtime services
+[ATF](0)[2.365341]INFO:    BL31: Initializing BL32
+[ATF](0)[2.366751]INFO:    BL31: Preparing for EL3 exit to normal world
+[ATF](0)[2.367522]INFO:    Entry point address = 0x41e00000
+[ATF](0)[2.368178]INFO:    SPSR = 0x1d3
+[3] kernel_boot_opt=6
+[3] 32Bit Kernel
+[4] SKIP sw sram repair
+[14] ==dump boot argument==
+[14] BOOT_REASON: 0
+[14] BOOT_MODE: 0
+[15] META_COM TYPE: 0
+[15] META_COM ID: 0
+[15] META_COM PORT: 285237248
+[15] LOG_COM PORT: 285233152
+[16] LOG_COM BAUD: 921600
+[16] LOG_COM EN: 1
+[16] MEM_NUM: 1
+[17] MEM_SIZE: 0xf9c0000
+[17] mblock num: 0x1
+[17] mblock start: 0x40000000
+[17] mblock size: 0xf9c0000
+[18] mblock rank: 0x0
+[18] mblock start: 0x0
+[18] mblock size: 0x0
+[19] mblock rank: 0x0
+[19] mblock start: 0x0
+[19] mblock size: 0x0
+[19] mblock rank: 0x0
+[20] mblock start: 0x0
+[20] mblock size: 0x0
+[20] mblock rank: 0x0
+[20] orig_dram num: 0x1
+[21] orig_dram start: 0x40000000
+[21] orig_dram size: 0x10000000
+[21] orig_dram start: 0x0
+[22] orig_dram size: 0x0
+[22] orig_dram start: 0x0
+[22] orig_dram size: 0x0
+[23] orig_dram start: 0x0
+[23] orig_dram size: 0x0
+[23] lca start: 0x0
+[23] lca size: 0x0
+[24] tee start: 0x4f9c0000
+[24] tee size: 0x40000
+[24] MD_INFO: 0xff
+[24] MD_INFO: 0xb6
+[25] MD_INFO: 0xf7
+[25] MD_INFO: 0x5e
+[25] BOOT_TIME: 1345
+[25] DA_INFO: 0xbfabd295
+[26] DA_INFO: 0x713d7e0d
+[26] DA_INFO: 0xede5bba2
+[26] DA_INFO: 0xeef557f7
+[27] DA_INFO: 0xfa8ffa7f
+[27] SEC_INFO: 0x5cfb7f9f
+[27] SEC_INFO: 0xfcbfaee3
+[27] PART_NUM: 3
+[28] PART_INFO: 0x42066a44
+[28] EFLAG: 0
+[28] DDR_RESERVE: 0
+[28] DDR_RESERVE: 0
+[29] DRAM_BUF: 1611712
+[29] SMC: 0x0
+[29] SMC: 0x6
+[29] SMC: 0x6
+[29] SRAM satrt: 0x12c000
+[30] SRAM size: 0x4000
+[30] ==dump boot argument==
+[30] platform_init()
+Start nand init in LK NAND_NFI_BASE:0x11001000
+[31] NAND INFO:mtk_nand_flash_get 457: nand id: c2 dc 90 a2 57 3
+[32] NAND INFO:mtk_nand_flash_get 462: nand found [MX30LF4G28AD]
+[33] NAND INFO:mtk_nand_flash_get 539: pagesize:4096, oobsize:256, blocksize:0x40000 totalsize:0x20000000
+[34] NAND INFO:mtk_search_bbt 209: Bad block table found at page 131008, version 1, i 1
+[35] NAND INFO:mtk_search_bbt 209: Bad block table found at page 130944, version 1, i 2
+[36] NAND INFO:mtk_read_bbt 156: page:131008
+[37] NAND INFO:mtk_read_bbt 156: page:130944
+[37] NAND INFO:mtk_nand_default_bbt 396: BBT check total block:2048
+[38] [partition init]
+[38] [GPT_LK]Parsing GPT now...
+read data, 3 - 4096 - 4096
+read data, 4 - 4096 - 4096
+[40] [GPT_LK][0]name=brhgptpl_0, part_id=0, start_sect=0x0, nr_sects=0x40
+[41] [GPT_LK][1]name=reserve0, part_id=1, start_sect=0x40, nr_sects=0xc0
+[41] [GPT_LK][2]name=lk_a, part_id=2, start_sect=0x100, nr_sects=0x180
+[42] [GPT_LK][3]name=lk_b, part_id=3, start_sect=0x280, nr_sects=0x180
+[43] [GPT_LK][4]name=brhgptpl_1, part_id=4, start_sect=0x400, nr_sects=0x40
+[44] [GPT_LK][5]name=reserve1, part_id=5, start_sect=0x440, nr_sects=0x1c0
+[45] [GPT_LK][6]name=idme_nand, part_id=6, start_sect=0x600, nr_sects=0x200
+[45] [GPT_LK][7]name=brhgptpl_2, part_id=7, start_sect=0x800, nr_sects=0x40
+[46] [GPT_LK][8]name=reserve2, part_id=8, start_sect=0x840, nr_sects=0x1c0
+[47] [GPT_LK][9]name=misc, part_id=9, start_sect=0xa00, nr_sects=0x200
+[48] [GPT_LK][10]name=brhgptpl_3, part_id=10, start_sect=0xc00, nr_sects=0x40
+[49] [GPT_LK][11]name=reserve3, part_id=11, start_sect=0xc40, nr_sects=0x1c0
+[50] [GPT_LK][12]name=tee1, part_id=12, start_sect=0xe00, nr_sects=0x500
+[50] [GPT_LK][13]name=boot_a, part_id=13, start_sect=0x1300, nr_sects=0xf40
+[51] [GPT_LK][14]name=tee2, part_id=14, start_sect=0x2240, nr_sects=0x500
+[52] [GPT_LK][15]name=boot_b, part_id=15, start_sect=0x2740, nr_sects=0xf40
+[53] [GPT_LK][16]name=persist, part_id=16, start_sect=0x3680, nr_sects=0x800
+[54] [GPT_LK][17]name=userdata, part_id=17, start_sect=0x3e80, nr_sects=0x1bf80
+[55] [GPT_LK] NAND_PART_USER size = 0x20000
+[55] [GPT_LK] last partition number is 0
+[56] [GPT_LK]Success to find valid gpt at0
+[56] idme_initialize
+[56] [partition_get_index]find idme_nand idme_nand start 1536
+[57] [partition_get_index]find idme_nand idme_nand start 1536
+[59] idme: invalid magic at 0x0
+[59] [partition_get_index]find idme_nand idme_nand start 1536
+[60] idme: invalid magic at 0x40000
+[61] [partition_get_index]find idme_nand idme_nand start 1536
+[62] idme: invalid magic at 0x80000
+[62] [partition_get_index]find idme_nand idme_nand start 1536
+[64] idme: invalid magic at 0xc0000
+[64] [partition_get_index]find idme_nand idme_nand start 1536
+[66] idme: magic number matched at 0x100000
+[LK_ENV]read_env_area fail, ret = fffffffe
+[LK_ENV]no valid env
+[67] mblock[0].start: 0x40000000, sz: 0xf9c0000, limit: 0x100000000, max_addr: 0x0, max_rank: 0, target: -1, mblock[].rank: 0
+, reserved_addr: 0x4f9c0000,reserved_size: 0x0
+[69] mblock_reserve dbg[0]: 1, 1, 1, 1, 1
+[69] mblock_reserve: 4f9c0000 - 4f9c0000 from mblock 0
+[70] FB base = 0x4f9c0000, FB size = 0
+[70] detecting pmic just reset
+[pmic_read_interface] No PMIC: RegNum = 0x4a
+[71] [mboot_recovery_load_misc]: size is 1088
+[72] [mboot_recovery_load_misc]: misc_addr is 0x41e72d90
+[72] [partition_get_index]find misc misc start 2560
+[73] erase_size: 0x40000 erase_blocks: 0x8 part_size 0x200000
+[75] bcb: magic number matched at 0x100000
+[75] MT65XX_FACTORY_KEY 0x5
+[75] MT65XX_BOOT_MENU_KEY 0x11
+[125] [BATTERY] Skip mt65xx_bat_init !!
+
+[125] [BATTERY] If you want to enable power off charging, 
+
+[126] [BATTERY] Please #define CFG_POWER_CHARGING!!
+
+ISSI_ESOL: begin anim: 120 with 12 number of leds and 36 channels
+[174] [I2C-LK] 372: id=0,addr: 3f, transfer error
+[175] [I2C-LK] 378: I2C_ACKERR
+[175] [I2C-LK] 246: I2C structure:
+[I2C-LK] Clk=34125,Clock_div=1,Id=0,Mode=1,St_rs=0,Dma_en=0,Op=1,Poll_en=1,Irq_stat=2
+[I2C-LK] Trans_len=2,Trans_num=1,Trans_auxlen=0,Data_size=ffff,speed=400
+[177] [I2C-LK] 249: base address 0x11009000
+[178] [I2C-LK] 271: I2C register:
+[I2C-LK] SLAVE_ADDR=7e,INTR_MASK=f8,INTR_STAT=3,CONTROL=28,TRANSFER_LEN=2
+[I2C-LK] TRANSAC_LEN=1,DELAY_LEN=2,TIMING=102a,START=0,FIFO_STAT=1210
+[I2C-LK] IO_CONFIG=3,HS=102,DCM_EN=0,DEBUGSTAT=40,EXT_CONF=1800,TRANSFER_LEN_AUX=0
+[I2C-LK] CLOCK_DIV=1
+[181] [I2C-LK] 834: Write 2 bytes fails,ret=-121.
+ISSI_ESOL: Error -1 when writing to CHIP_ADDR 3f
+ISSI_ESOL: could not reset registers
+ISSI_ESOL: could not setup device
+[188] Key Uber: Released
+[188] [partition_get_index]find misc misc start 2560
+[189] erase_size: 0x40000 erase_blocks: 0x8 part_size 0x200000
+[190] bcb: magic number matched at 0x100000
+[191] part page addr is 0x1300000
+[191] [partition_get_index]find boot_a boot_a start 4864
+[192] ============================================================
+[193] [LK_BOOT] Android Partition Name                : boot_a
+[193] [LK_BOOT] Android Boot IMG Hdr - Magic          : ANDROID
+[194] [LK_BOOT] Android Boot IMG Hdr - Kernel Size    : 0x0063315D
+[195] [LK_BOOT] Android Boot IMG Hdr - Kernel Address : 0x40008000
+[196] [LK_BOOT] Android Boot IMG Hdr - Rootfs Size    : 0x00350E50
+[196] [LK_BOOT] Android Boot IMG Hdr - Rootfs Address : 0x44000000
+[197] [LK_BOOT] Android Boot IMG Hdr - Tags Address   : 0x4E000000
+[198] [LK_BOOT] Android Boot IMG Hdr - Page Size      : 0x00000800
+[199] [LK_BOOT] Android Boot IMG Hdr - Command Line   : bootopt=64S3,32N2,32N2 lowmemorykiller.minfree=1536,2048,4096,8192,16384,16384 lowmemorykiller.adj=0,100,200,300,900,906 buildvariant=user veritykeyid=id:f3530e18f64d11fc25eb2dd762979f078de990bf
+[201] ============================================================
+[202]  > page count of kernel image = 3175
+[203]  > kernel mem offset = 0x45000000
+[203]  > rootfs mem offset = 0x45633800
+[204]  > boot image size = 0x985000
+[204] boot state: green
+[204] check mkimg header
+[204] [partition_get_index]find boot_a boot_a start 4864
+[205] =========================================
+[206] [LK_BOOT] KERNEL magic number : 0x58881688
+[206] [LK_BOOT] KERNEL size         : 0x632f5d
+[207] =========================================
+[207] mkimg header exist in kernel image
+[208] 
+read the data of boot_a (size = 0x985000)
+[208]  > from - 0x0000000001300800 (skip boot img hdr)
+[209]  > to   - 0x44fffe00 (starts with kernel img hdr)
+[210] [partition_get_index]find boot_a boot_a start 4864
+[620] [LK_BOOT] ROOTFS partition magic not match
+[621] no mkimg header in ramdisk image
+amzn_verify_onetime_unlock_code: Verify one time unlock cert fail, ret = -5
+Certificate authenticated
+==============
+Image Metadata
+==============
+product:crumpet
+signer:CodeSigner
+Image AUTHENTICATED with PRODUCTION certificate
+[1382] boot state: green
+[1382] [PROFILE] ------- load boot.img takes 1194 ms -------- 
+amzn_verify_onetime_unlock_code: Verify one time unlock cert fail, ret = -5
+[1396] selinux mode = enforce
+amzn_verify_onetime_unlock_code: Verify one time unlock cert fail, ret = -5
+[1405] [DM-VERITY] enabled with enforcing mode
+[1418] Found exact match compatible=amzn,crumpet-pvt (primary=amzn,crumpet-pvt) at 0x4e000000 offset=0
+[1425] dtb_addr = 0x4E000000, dtb_size = 0x00080000
+[1425] model=MT8167B
+[1426] efuse set max_clk_freq=1300000000
+[1426] cluster-0: 4 core
+[1426] device name doesn't end with : in device tree prop
+[1427] insert_dt_prop: Invalid devicetree prop format()
+[1428] device name doesn't end with : in device tree prop
+[1428] insert_dt_prop: Invalid devicetree prop format()
+[1429] [ccci] modem standalone not support
+[1429] mblock[0].start: 0x40000000, size: 0xf9c0000
+[1478] LASTPC[0][0] = 26690848
+[1478] LASTPC[0][1] = ffff3c66
+[1478] LASTPC[0][2] = 2068a94a
+[1479] LASTPC[0][3] = e19949d1
+[1479] LASTPC[0][4] = 116ced31
+[1480] LASTPC[0][5] = 7315d1e9
+[1480] LASTPC[0][6] = 4d80666f
+[1480] LASTPC[0][7] = f4f7c1b1
+[1481] LASTPC[1][0] = 0
+[1481] LASTPC[1][1] = 0
+[1481] LASTPC[1][2] = 0
+[1481] LASTPC[1][3] = 0
+[1482] LASTPC[1][4] = 0
+[1482] LASTPC[1][5] = 0
+[1482] LASTPC[1][6] = 0
+[1483] LASTPC[1][7] = 0
+[1483] LASTPC[2][0] = 0
+[1483] LASTPC[2][1] = 0
+[1483] LASTPC[2][2] = 0
+[1484] LASTPC[2][3] = 0
+[1484] LASTPC[2][4] = 0
+[1484] LASTPC[2][5] = 0
+[1485] LASTPC[2][6] = 0
+[1485] LASTPC[2][7] = 0
+[1485] LASTPC[3][0] = 0
+[1485] LASTPC[3][1] = 0
+[1486] LASTPC[3][2] = 0
+[1486] LASTPC[3][3] = 0
+[1486] LASTPC[3][4] = 0
+[1486] LASTPC[3][5] = 0
+[1487] LASTPC[3][6] = 0
+[1487] LASTPC[3][7] = 0
+[1488] fg_swocv_v buf [0], [0x41e646b0:0x41e646b1:1]
+[1488] fg_swocv_i buf [0], [0x41e646b0:0x41e646b1:1]
+[1489] shutdown_time buf [0], [0x41e646b0:0x41e646b1:1]
+[1490] boot_voltage buf [0], [0x41e646b0:0x41e646b1:1]
+[1491] Not Support VCORE DVFS
+[1491] [ccci] modem mem info not support
+[1492] [ccci] modem mem arguments info using v1
+[1492] PTP_INFO Only support in MT6795
+[1493] masp atag not support in this platform
+[1493] tee_reserved_mem not supported
+[1494] [LK] non_secure_sram (0x12c000, 0x4000)
+[1494] [PROFILE] ------- boot_time takes 1494 ms -------- 
+[LK_ENV]get_env hibboot
+[LK_ENV]get_env resume
+[1496] resume = NULL 
+[1496] booting linux @ 0x40008000, ramdisk @ 0x44000000 (3477072)
+[1497] DRAM Rank :1
+[1497] DRAM Rank[0] Start = 0x40000000, Size = 0xf9c0000
+[1498] cmdline: console=tty0 console=ttyMT0,921600n1 earlycon=uart8250,mmio32,0x11005000 vmalloc=496M androidboot.hardware=mt8167 androidboot.secure_cpu=1 androidboot.unlocked_kernel=false androidboot.pl_version=0x0001 androidboot.tee_version=0x0001 androidboot.lk_version=0x0001 androidboot.prod=1 androidboot.pl_build_desc=2b6f82c-20190926_190455 androidboot.lk_build_desc=674eac9-20190926_190455 androidboot.verifiedbootstate=green androidboot.prod=1 bootopt=64S3,32N2,32N2 lowmemorykiller.minfree=1536,2048,4096,8192,16384,16384 lowmemorykiller.adj=0,100,200,300,900,906 buildvariant=user veritykeyid=id:f3530e18f64d11fc25eb2dd762979f078de990bf androidboot.selinux=enforce androidboot.veritymode=enforcing androidboot.slot_suffix=_a rootwait ro init=/init ubi.mtd=persist,4096,4,0 ubi.mtd=userdata,4096,20,1 skip_initramfs ubi.block=1,0 root=/dev/dm-0 dm="system none ro,0 1 android-verity /dev/ubiblock1_0" printk.disable_uart=1 leds-is31fl3236.ledcalibparams=1,0x00779388,0x00C6FFE9 bootprof.pl_t=1345 bootprof.lk_t=1494 boo[1510] lk boot time = 1494 ms
+[1510] lk boot mode = 0
+[1510] lk boot reason = power_key
+[1511] lk finished --> jump to linux kernel 32Bit
+
+[    0.000000] <0>-(0)[0:swapper]Booting Linux on physical CPU 0x0
+[    0.000000] <0>-(0)[0:swapper]Initializing cgroup subsys cpuset
+[    0.000000] <0>-(0)[0:swapper]Initializing cgroup subsys cpu
+[    0.000000] <0>-(0)[0:swapper]Initializing cgroup subsys cpuacct
+[    0.000000] <0>-(0)[0:swapper]Linux version 4.4.22+ (build@i3-ri-14-use1a-b-100) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jan 9 23:44:03 UTC 2020
+[    0.000000] <0>-(0)[0:swapper]CPU: ARMv7 Processor [410fd041] revision 1 (ARMv7), cr=10c0383d
+[    0.000000] <0>-(0)[0:swapper]CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] <0>-(0)[0:swapper]Machine model: MT8167B
+[    0.000000] <0>-(0)[0:swapper]earlycon: Early serial console at MMIO32 0x11005000 (options '')
+[    0.000000] <0>-(0)[0:swapper]bootconsole [uart0] enabled
+[    0.000000] <0>-(0)[0:swapper][PHY layout]atf-reserved-memory@43000000   :   0x43000000 - 0x4302ffff (0x30000)
+[    0.000000] <0>-(0)[0:swapper][PHY layout]consys-reserve-memory   :   0x4f600000 - 0x4f7fffff (0x200000)
+[    0.000000] <0>-(0)[0:swapper][memblock]ram_console-reserve-memory: 0x44400000 - 0x44410000 (0x10000)
+[    0.000000] <0>-(0)[0:swapper]Reserved memory: initialized node ram_console-reserved-memory@44400000, compatible id mediatek,ram_console
+[    0.000000] <0>-(0)[0:swapper]Memory policy: Data cache writealloc
+[    0.000000] <0>-(0)[0:swapper][PHY layout]kernel   :   0x40000000 - 0x42ffffff (0x03000000)
+[    0.000000] <0>-(0)[0:swapper][PHY layout]kernel   :   0x43030000 - 0x4f5fffff (0x0c5d0000)
+[    0.000000] <0>-(0)[0:swapper][PHY layout]kernel   :   0x4f800000 - 0x4f9bffff (0x001c0000)
+[    0.000000] <0>-(0)[0:swapper]psci: probing for conduit method from DT.
+[    0.000000] <0>-(0)[0:swapper]psci: PSCIv1.0 detected in firmware.
+[    0.000000] <0>-(0)[0:swapper]psci: Using standard PSCI v0.2 function IDs
+[    0.000000] <0>-(0)[0:swapper]psci: Trusted OS migration not required
+[    0.000000] <0>-(0)[0:swapper]PERCPU: Embedded 14 pages/cpu @cf956000 s25728 r8192 d23424 u57344
+[    0.000000] <0>-(0)[0:swapper]Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 62876
+[    0.000000] <0>-(0)[0:swapper][cpu_ntf] <00>c00fa020 (page_alloc_cpu_notify)
+[    0.000000] <0>Kernel command line: console=tty0 console=ttyMT0,921600n1 earlycon=uart8250,mmio32,0x11005000 vmalloc=496M androidboot.hardware=mt8167 androidboot.secure_cpu=1 androidboot.unlocked_kernel=false androidboot.pl_version=0x0001 androidboot.tee_version=0x0001 androidboot.lk_version=0x0001 androidboot.prod=1 androidboot.pl_build_desc=2b6f82c-20190926_190455 androidboot.lk_build_desc=674eac9-20190926_190455 androidboot.verifiedbootstate=green androidboot.prod=1 bootopt=64S3,32N2,32N2 lowmemorykiller.minfree=1536,2048,4096,8192,16384,16384 lowmemorykiller.adj=0,100,200,300,900,906 buildvariant=user veritykeyid=id:f3530e18f64d11fc25eb2dd762979f078de990bf androidboot.selinux=enforce androidboot.veritymode=enforcing androidboot.slot_suffix=_a rootwait ro init=/init ubi.mtd=persist,4096,4,0 ubi.mtd=userdata,4096,20,1 skip_initramfs ubi.block=1,0 root=/dev/dm-0 dm="system none ro,0 1 android-verity /dev/ubiblock1_0" printk.disable_uart=1 leds-is31fl3236.ledcalibparams=1,0x00779388,0x00C6[    0.000000] <0>-(0)[0:swapper]dm: will configure 'system' on dm-0
+[    0.000000] -(0)[0:swapper]PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] -(0)[0:swapper]Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] -(0)[0:swapper]Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] -(0)[0:swapper]Memory: 237080K/253504K available (8347K kernel code, 567K rwdata, 2796K rodata, 504K init, 460K bss, 16424K reserved, 0K cma-reserved, 0K highmem)
+[    0.000000] -(0)[0:swapper]Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xd0000000 - 0xff800000   ( 760 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xcf9c0000   ( 249 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0aea000   (11144 kB)
+[    0.000000]       .init : 0xc0aea000 - 0xc0b68000   ( 504 kB)
+[    0.000000]       .data : 0xc0b68000 - 0xc0bf5f10   ( 568 kB)
+[    0.000000]        .bss : 0xc0bf7000 - 0xc0c6a158   ( 461 kB)
+[    0.000000] -(0)[0:swapper][cpu_ntf] <00>c01343c4 (slab_cpuup_callback)
+[    0.000000] -(0)[0:swapper]SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c005bcbc (sched_ilb_notifier)
+[    0.000000] -(0)[0:swapper/0]Preemptible hierarchical RCU implementation.
+[    0.000000] -(0)[0:swapper/0]	Build-time adjustment of leaf fanout to 32.
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c0089f34 (rcu_cpu_notify)
+[    0.000000] -(0)[0:swapper/0]
+[    0.000000] -(0)[0:swapper/0]**********************************************************
+[    0.000000] -(0)[0:swapper/0]**   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] -(0)[0:swapper/0]**                                                      **
+[    0.000000] -(0)[0:swapper/0]** trace_printk() being used. Allocating extra memory.  **
+[    0.000000] -(0)[0:swapper/0]**                                                      **
+[    0.000000] -(0)[0:swapper/0]** This means that this is a DEBUG kernel and it is     **
+[    0.000000] -(0)[0:swapper/0]** unsafe for production use.                           **
+[    0.000000] -(0)[0:swapper/0]**                                                      **
+[    0.000000] -(0)[0:swapper/0]** If you see this message and you are not debugging    **
+[    0.000000] -(0)[0:swapper/0]** the kernel, report this immediately to your vendor!  **
+[    0.000000] -(0)[0:swapper/0]**                                                      **
+[    0.000000] -(0)[0:swapper/0]**   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] -(0)[0:swapper/0]**********************************************************
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c02e1c10 (radix_tree_callback)
+[    0.000000] -(0)[0:swapper/0]NR_IRQS:16 nr_irqs:16 16
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c030c9b0 (gic_secondary_init)
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c009250c (timer_cpu_notify)
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c0094008 (hrtimer_cpu_notify)
+[    0.000000] -(0)[0:swapper/0][cpu_ntf] <00>c0596988 (arch_timer_cpu_notify)
+[    0.000000] -(0)[0:swapper/0]Architected cp15 timer(s) running at 13.00MHz (virt).
+[    0.000000] -(0)[0:swapper/0]clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x2ff89eacb, max_idle_ns: 440795202429 ns
+[    0.000007] -(0)[0:swapper/0]sched_clock: 56 bits at 13MHz, resolution 76ns, wraps every 4398046511101ns
+[    0.001254] -(0)[0:swapper/0]Switching to timer-based delay loop, resolution 76ns
+[    0.002357] -(0)[0:swapper/0]clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 147020034397 ns
+[    0.004172] -(0)[0:swapper/0][cpu_ntf] <00>c00a6eec (hotplug_cfd)
+[    0.005460]  (0)[0:swapper/0]console [ttyMT0] enabled
+[    0.006128]  (0)[0:swapper/0]bootconsole [uart0] disabled

@@ -1,0 +1,11 @@
+usb 1-4: new high-speed USB device number 124 using xhci_hcd
+[287628.975133] usb 1-4: New USB device found, idVendor=0e8d, idProduct=2000, bcdDevice= 1.00
+[287628.975137] usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[287628.975139] usb 1-4: Product: MT65xx Preloader
+[287628.975141] usb 1-4: Manufacturer: MediaTek
+[287629.042223] cdc_acm 1-4:1.0: Zero length descriptor references
+[287629.042232] cdc_acm: probe of 1-4:1.0 failed with error -22
+[287629.082287] cdc_acm 1-4:1.1: ttyACM0: USB ACM device
+[287631.669611] usb 1-4: USB disconnect, device number 124
+
+lsusb -v -d 0e8d:2000
