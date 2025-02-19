@@ -1,0 +1,1 @@
+same approach as for the dump stuff - get the relevant py file and move to dir, create script that handles what we need and modify original source where required

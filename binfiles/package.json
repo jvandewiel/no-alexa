@@ -1,0 +1,12 @@
+{
+  "name": "bootfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootfile.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lzo": "^0.4.11"
+  }
+}

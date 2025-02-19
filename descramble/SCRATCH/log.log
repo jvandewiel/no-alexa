@@ -1,0 +1,342 @@
+UBI: file ready, size: 8388608, blocks: 32
+UBI: parsing 32 lebs
+UBI: reading block 0 at offset 0
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 1 at offset 262144
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 2 at offset 524288
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 3 at offset 786432
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 4 at offset 1048576
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 5 at offset 1310720
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 6 at offset 1572864
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 7 at offset 1835008
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 8 at offset 2097152
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 9 at offset 2359296
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 00 00 00 14> 20
+<Buffer 00 00 00 14 00 00 00 01 00 00 00 00 01 00 00 07 70 65 72 73 69 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 122 more bytes>
+<Buffer 00 00 00 14 00 00 00 01 00 00 00 00 01 00 00 07 70 65 72 73 69 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 118 more bytes>
+calc crc <Buffer 11 fb ea 02>
+this crc <Buffer 01 1f be a2>
+error: crc mismatches calc/this: 11fbea2 011fbea2
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 10 at offset 2621440
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 00 00 00 14> 20
+<Buffer 00 00 00 14 00 00 00 01 00 00 00 00 01 00 00 07 70 65 72 73 69 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 122 more bytes>
+<Buffer 00 00 00 14 00 00 00 01 00 00 00 00 01 00 00 07 70 65 72 73 69 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 118 more bytes>
+calc crc <Buffer 11 fb ea 02>
+this crc <Buffer 01 1f be a2>
+error: crc mismatches calc/this: 11fbea2 011fbea2
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 11 at offset 2883584
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 e6 7f 0e ce 02 00 00 00 00 00 00 00 a0 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 a0 00 ... 122 more bytes>
+<Buffer 31 18 10 06 e6 7f 0e ce 02 00 00 00 00 00 00 00 a0 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 a0 00 ... 118 more bytes>
+calc crc <Buffer 24 ee 61 d4>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: 24ee61d4 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 12 at offset 3145728
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 13 at offset 3407872
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 1b d3 fc bf 03 00 00 00 00 00 00 00 30 00 00 00 09 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 a0 00 00 00 01 00 00 00 00 00 00 00 31 18 ... 122 more bytes>
+<Buffer 31 18 10 06 1b d3 fc bf 03 00 00 00 00 00 00 00 30 00 00 00 09 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 a0 00 00 00 01 00 00 00 00 00 00 00 31 18 ... 118 more bytes>
+calc crc <Buffer 23 77 a9 a7>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: 2377a9a7 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 14 at offset 3670016
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 73 4a 00 a0> 1934229664
+<Buffer 73 4a 00 a0 67 0f 00 e0 03 00 00 e8 f5 03 01 f8 00 00 25 61 01 00 00 02 00 20 00 00 02 00 00 75 8c 02 00 7d f5 03 00 e0 03 00 00 ff ff ff ff ff ff ff ... 122 more bytes>
+<Buffer 73 4a 00 a0 67 0f 00 e0 03 00 00 e8 f5 03 01 f8 00 00 25 61 01 00 00 02 00 20 00 00 02 00 00 75 8c 02 00 7d f5 03 00 e0 03 00 00 ff ff ff ff ff ff ff ... 118 more bytes>
+calc crc <Buffer 00 fc 4b 8d 0e>
+this crc <Buffer ff ff ff ff>
+error: crc mismatches calc/this: -3fc4b8de ffffffff
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 15 at offset 3932160
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 16 at offset 4194304
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 17 at offset 4456448
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 66 29 e5 0f 05 00 00 00 00 00 00 00 00 02 00 00 07 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 03 00 00 00 0a 00 ... 122 more bytes>
+<Buffer 31 18 10 06 66 29 e5 0f 05 00 00 00 00 00 00 00 00 02 00 00 07 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 03 00 00 00 0a 00 ... 118 more bytes>
+calc crc <Buffer 00 93 8b 18 07>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: -2938b187 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 18 at offset 4718592
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 41 36 b4 1b 06 00 00 00 00 00 00 00 00 02 00 00 07 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 03 00 00 00 0a 00 ... 122 more bytes>
+<Buffer 31 18 10 06 41 36 b4 1b 06 00 00 00 00 00 00 00 00 02 00 00 07 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 03 00 00 00 0a 00 ... 118 more bytes>
+calc crc <Buffer 00 e3 d2 cb 0e>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: -3e3d2cbe 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 19 at offset 4980736
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 20 at offset 5242880
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 21 at offset 5505024
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 22 at offset 5767168
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 f8 3e 96 f4 01 00 00 00 00 00 00 00 00 10 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 10 00 00 00 e0 03 00 14 00 00 00 14 00 00 00 00 a0 ... 122 more bytes>
+<Buffer 31 18 10 06 f8 3e 96 f4 01 00 00 00 00 00 00 00 00 10 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 10 00 00 00 e0 03 00 14 00 00 00 14 00 00 00 00 a0 ... 118 more bytes>
+calc crc <Buffer 44 96 4a 0e>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: 44964ae 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 23 at offset 6029312
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 24 at offset 6291456
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 81 a2 c5 78 16 00 00 00 00 00 00 00 90 01 00 00 01 00 00 00 41 00 00 00 00 00 00 20 00 00 00 00 00 00 00 00 60 01 00 00 00 00 00 00 0a 00 ... 122 more bytes>
+<Buffer 31 18 10 06 81 a2 c5 78 16 00 00 00 00 00 00 00 90 01 00 00 01 00 00 00 41 00 00 00 00 00 00 20 00 00 00 00 00 00 00 00 60 01 00 00 00 00 00 00 0a 00 ... 118 more bytes>
+calc crc <Buffer 76 1c 87 ee>
+this crc <Buffer 79 fa 81 0e>
+error: crc mismatches calc/this: 761c87ee 79fa810e
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 9b 78 c0 2d> 2608381997
+<Buffer 9b 78 c0 2d 10 e7 4e e2 d4 e3 99 d0 6f df 33 60 fa 99 17 39 13 2c 77 c4 63 63 d4 c6 3d 7a ca 13 8c bb 2e 64 ae 6d 51 13 d3 7d 2f 82 24 f1 37 53 9c df ... 122 more bytes>
+<Buffer 9b 78 c0 2d 10 e7 4e e2 d4 e3 99 d0 6f df 33 60 fa 99 17 39 13 2c 77 c4 63 63 d4 c6 3d 7a ca 13 8c bb 2e 64 ae 6d 51 13 d3 7d 2f 82 24 f1 37 53 9c df ... 118 more bytes>
+calc crc <Buffer 4e 80 08 e3>
+this crc <Buffer b6 2d 63 9b>
+error: crc mismatches calc/this: 4e8008e3 b62d639b
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 95 18 fa f5> 2501442293
+<Buffer 95 18 fa f5 c9 55 d7 b9 1b 84 26 63 07 5c fc e6 45 a0 9c 8a 30 38 2f 42 ff a7 10 c7 9d 10 00 a2 11 7f 35 f7 c1 9e 10 fd 9d 93 61 df 5b f0 d9 a0 38 0a ... 122 more bytes>
+<Buffer 95 18 fa f5 c9 55 d7 b9 1b 84 26 63 07 5c fc e6 45 a0 9c 8a 30 38 2f 42 ff a7 10 c7 9d 10 00 a2 11 7f 35 f7 c1 9e 10 fd 9d 93 61 df 5b f0 d9 a0 38 0a ... 118 more bytes>
+calc crc <Buffer 16 73 f6 91>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: 1673f691 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 3 volume records
+LEB: LEB created
+
+UBI: reading block 25 at offset 6553600
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 26 at offset 6815744
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 27 at offset 7077888
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+vtr:  <Buffer 31 18 10 06> 823660550
+<Buffer 31 18 10 06 9f 8b ca 1f 3c 00 00 00 00 00 00 00 20 00 00 00 0a 00 00 00 04 00 00 00 00 00 00 00 31 18 10 06 2b 4c b3 f4 3d 00 00 00 00 00 00 00 40 00 ... 122 more bytes>
+<Buffer 31 18 10 06 9f 8b ca 1f 3c 00 00 00 00 00 00 00 20 00 00 00 0a 00 00 00 04 00 00 00 00 00 00 00 31 18 10 06 2b 4c b3 f4 3d 00 00 00 00 00 00 00 40 00 ... 118 more bytes>
+calc crc <Buffer 00 e6 a9 db 04>
+this crc <Buffer 00 00 00 00>
+error: crc mismatches calc/this: -3e6a9db4 00000000
+[VolumeTableRecord] parsed buffer
+LEB: added 1 volume records
+LEB: LEB created
+
+UBI: reading block 28 at offset 7340032
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 29 at offset 7602176
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 30 at offset 7864320
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+
+UBI: reading block 31 at offset 8126464
+UBI: read 262144 bytes
+[EraseCountHeader] parsed buffer
+[VolumeIdentifierHeader] parsed buffer
+[VolumeTableRecord] parsed buffer
+LEB: added 0 volume records
+LEB: LEB created
+

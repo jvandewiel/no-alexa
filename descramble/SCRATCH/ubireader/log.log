@@ -1,0 +1,1341 @@
+exporting from  /home/joost/Projects/gitea/echodotv3/flashdump/exported/partitions/persist.bin
+UBI_File Open Path: /home/joost/Projects/gitea/echodotv3/flashdump/exported/partitions/persist.bin
+UBI_File File Size: 8388608
+UBI_File Start Offset: 0
+UBI_File End Offset: 8388608
+UBI_File Block Size: 262144
+guess_filetype Looking for file type at 0
+guess_filetype File looks like a UBI image.
+UBI_File read loc: 0, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 0: LEB# -1
+extract_blocks file addr: 0
+extract_blocks PEB: 0 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 0: LEB# -1
+	---------------------
+		File Offset: 0
+		PEB #: 0
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 262144, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 1: LEB# -1
+extract_blocks file addr: 262144
+extract_blocks PEB: 1 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 1: LEB# -1
+	---------------------
+		File Offset: 262144
+		PEB #: 1
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 524288, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 2: LEB# -1
+extract_blocks file addr: 524288
+extract_blocks PEB: 2 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 2: LEB# -1
+	---------------------
+		File Offset: 524288
+		PEB #: 2
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 786432, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 3: LEB# -1
+extract_blocks file addr: 786432
+extract_blocks PEB: 3 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 3: LEB# -1
+	---------------------
+		File Offset: 786432
+		PEB #: 3
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 1048576, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 4: LEB# -1
+extract_blocks file addr: 1048576
+extract_blocks PEB: 4 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 4: LEB# -1
+	---------------------
+		File Offset: 1048576
+		PEB #: 4
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 1310720, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 5: LEB# -1
+extract_blocks file addr: 1310720
+extract_blocks PEB: 5 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 5: LEB# -1
+	---------------------
+		File Offset: 1310720
+		PEB #: 5
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 1572864, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 6: LEB# -1
+extract_blocks file addr: 1572864
+extract_blocks PEB: 6 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 6: LEB# -1
+	---------------------
+		File Offset: 1572864
+		PEB #: 6
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 1835008, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 7: LEB# -1
+extract_blocks file addr: 1835008
+extract_blocks PEB: 7 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 7: LEB# -1
+	---------------------
+		File Offset: 1835008
+		PEB #: 7
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 2097152, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 8: LEB# -1
+extract_blocks file addr: 2097152
+extract_blocks PEB: 8 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 8: LEB# -1
+	---------------------
+		File Offset: 2097152
+		PEB #: 8
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 2359296, size: 262144
+extract_blocks Block: PEB# 9: LEB# 0
+extract_blocks file addr: 2359296
+	Block: PEB# 9: LEB# 0
+	---------------------
+		File Offset: 2359296
+		PEB #: 9
+		LEB #: 0
+		Block Size: 262144
+		Internal Volume: True
+		Is Volume Table: True
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: -1
+			copy_flag: 1
+			data_crc: 121407539
+			data_pad: 0
+			data_size: 24576
+			errors: ''
+			hdr_crc: '0x90690f05'
+			lnum: 0
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 3
+			used_ebs: 0
+			version: 1
+			vol_id: 2147479551
+			vol_type: 'dynamic'
+
+		Volume Records
+		---------------------
+			alignment: 1
+			crc: '0x11fbea2'
+			data_pad: 0
+			errors: ''
+			flags: 0
+			name: 'persist'
+			name_len: 7
+			padding: '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			rec_index: 0
+			reserved_pebs: 20
+			upd_marker: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 2621440, size: 262144
+extract_blocks Block: PEB# 10: LEB# 1
+extract_blocks file addr: 2621440
+	Block: PEB# 10: LEB# 1
+	---------------------
+		File Offset: 2621440
+		PEB #: 10
+		LEB #: 1
+		Block Size: 262144
+		Internal Volume: True
+		Is Volume Table: True
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: -1
+			copy_flag: 1
+			data_crc: 121407539
+			data_pad: 0
+			data_size: 24576
+			errors: ''
+			hdr_crc: '0x4e8c2111'
+			lnum: 1
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 4
+			used_ebs: 0
+			version: 1
+			vol_id: 2147479551
+			vol_type: 'dynamic'
+
+		Volume Records
+		---------------------
+			alignment: 1
+			crc: '0x11fbea2'
+			data_pad: 0
+			errors: ''
+			flags: 0
+			name: 'persist'
+			name_len: 7
+			padding: '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			rec_index: 0
+			reserved_pebs: 20
+			upd_marker: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 2883584, size: 262144
+extract_blocks Block: PEB# 11: LEB# 8
+extract_blocks file addr: 2883584
+	Block: PEB# 11: LEB# 8
+	---------------------
+		File Offset: 2883584
+		PEB #: 11
+		LEB #: 8
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 1
+			data_crc: 1646950642
+			data_pad: 0
+			data_size: 4096
+			errors: ''
+			hdr_crc: '0xe79bffb3'
+			lnum: 8
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 5
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 3145728, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 12: LEB# -1
+extract_blocks file addr: 3145728
+extract_blocks PEB: 12 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 12: LEB# -1
+	---------------------
+		File Offset: 3145728
+		PEB #: 12
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 3407872, size: 262144
+extract_blocks Block: PEB# 13: LEB# 10
+extract_blocks file addr: 3407872
+	Block: PEB# 13: LEB# 10
+	---------------------
+		File Offset: 3407872
+		PEB #: 13
+		LEB #: 10
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 1
+			data_crc: 1631446337
+			data_pad: 0
+			data_size: 4096
+			errors: ''
+			hdr_crc: '0x852c960d'
+			lnum: 10
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 7
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 3670016, size: 262144
+extract_blocks Block: PEB# 14: LEB# 5
+extract_blocks file addr: 3670016
+	Block: PEB# 14: LEB# 5
+	---------------------
+		File Offset: 3670016
+		PEB #: 14
+		LEB #: 5
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 1
+			data_crc: 3866729731
+			data_pad: 0
+			data_size: 4096
+			errors: ''
+			hdr_crc: '0xe0906688'
+			lnum: 5
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 8
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 3932160, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 15: LEB# -1
+extract_blocks file addr: 3932160
+extract_blocks PEB: 15 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 15: LEB# -1
+	---------------------
+		File Offset: 3932160
+		PEB #: 15
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 4194304, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 16: LEB# -1
+extract_blocks file addr: 4194304
+extract_blocks PEB: 16 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 16: LEB# -1
+	---------------------
+		File Offset: 4194304
+		PEB #: 16
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 4456448, size: 262144
+extract_blocks Block: PEB# 17: LEB# 1
+extract_blocks file addr: 4456448
+	Block: PEB# 17: LEB# 1
+	---------------------
+		File Offset: 4456448
+		PEB #: 17
+		LEB #: 1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 1
+			data_crc: 3420402755
+			data_pad: 0
+			data_size: 4096
+			errors: ''
+			hdr_crc: '0xc86cd0f6'
+			lnum: 1
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 11
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 4718592, size: 262144
+extract_blocks Block: PEB# 18: LEB# 2
+extract_blocks file addr: 4718592
+	Block: PEB# 18: LEB# 2
+	---------------------
+		File Offset: 4718592
+		PEB #: 18
+		LEB #: 2
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 1
+			data_crc: 2386881534
+			data_pad: 0
+			data_size: 4096
+			errors: ''
+			hdr_crc: '0xd71455e0'
+			lnum: 2
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 12
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 4980736, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 19: LEB# -1
+extract_blocks file addr: 4980736
+extract_blocks PEB: 19 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 19: LEB# -1
+	---------------------
+		File Offset: 4980736
+		PEB #: 19
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 5242880, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 20: LEB# -1
+extract_blocks file addr: 5242880
+extract_blocks PEB: 20 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 20: LEB# -1
+	---------------------
+		File Offset: 5242880
+		PEB #: 20
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 5505024, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 21: LEB# -1
+extract_blocks file addr: 5505024
+extract_blocks PEB: 21 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 21: LEB# -1
+	---------------------
+		File Offset: 5505024
+		PEB #: 21
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 5767168, size: 262144
+extract_blocks Block: PEB# 22: LEB# 0
+extract_blocks file addr: 5767168
+	Block: PEB# 22: LEB# 0
+	---------------------
+		File Offset: 5767168
+		PEB #: 22
+		LEB #: 0
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 1
+			data_crc: 3111678920
+			data_pad: 0
+			data_size: 4096
+			errors: ''
+			hdr_crc: '0x231f66dc'
+			lnum: 0
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 16
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 6029312, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 23: LEB# -1
+extract_blocks file addr: 6029312
+extract_blocks PEB: 23 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 23: LEB# -1
+	---------------------
+		File Offset: 6029312
+		PEB #: 23
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 6291456, size: 262144
+extract_blocks Block: PEB# 24: LEB# 11
+extract_blocks file addr: 6291456
+	Block: PEB# 24: LEB# 11
+	---------------------
+		File Offset: 6291456
+		PEB #: 24
+		LEB #: 11
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 0
+			data_crc: 0
+			data_pad: 0
+			data_size: 0
+			errors: ''
+			hdr_crc: '0x84c797f4'
+			lnum: 11
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 18
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 6553600, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 25: LEB# -1
+extract_blocks file addr: 6553600
+extract_blocks PEB: 25 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 25: LEB# -1
+	---------------------
+		File Offset: 6553600
+		PEB #: 25
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 6815744, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 26: LEB# -1
+extract_blocks file addr: 6815744
+extract_blocks PEB: 26 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 26: LEB# -1
+	---------------------
+		File Offset: 6815744
+		PEB #: 26
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 2
+			errors: ''
+			hdr_crc: '0x4e2e19cc'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 7077888, size: 262144
+extract_blocks Block: PEB# 27: LEB# 3
+extract_blocks file addr: 7077888
+	Block: PEB# 27: LEB# 3
+	---------------------
+		File Offset: 7077888
+		PEB #: 27
+		LEB #: 3
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: True
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+		VID Header
+		---------------------
+			compat: 0
+			copy_flag: 0
+			data_crc: 0
+			data_pad: 0
+			data_size: 0
+			errors: ''
+			hdr_crc: '0xe552c00b'
+			lnum: 3
+			magic: b'UBI!'
+			padding: b'\x00\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00'
+			padding3: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			sqnum: 21
+			used_ebs: 0
+			version: 1
+			vol_id: 0
+			vol_type: 'dynamic'
+
+
+UBI_File read loc: 7340032, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 28: LEB# -1
+extract_blocks file addr: 7340032
+extract_blocks PEB: 28 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 28: LEB# -1
+	---------------------
+		File Offset: 7340032
+		PEB #: 28
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 7602176, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 29: LEB# -1
+extract_blocks file addr: 7602176
+extract_blocks PEB: 29 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 29: LEB# -1
+	---------------------
+		File Offset: 7602176
+		PEB #: 29
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 7864320, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 30: LEB# -1
+extract_blocks file addr: 7864320
+extract_blocks PEB: 30 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 30: LEB# -1
+	---------------------
+		File Offset: 7864320
+		PEB #: 30
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+UBI_File read loc: 8126464, size: 262144
+vid_hdr CRC Failed: expected 0xb730eb2 got 0xffffffff
+extract_blocks Block: PEB# 31: LEB# -1
+extract_blocks file addr: 8126464
+extract_blocks PEB: 31 has possible issue EC_HDR [], VID_HDR [crc]
+	Block: PEB# 31: LEB# -1
+	---------------------
+		File Offset: 8126464
+		PEB #: 31
+		LEB #: -1
+		Block Size: 262144
+		Internal Volume: False
+		Is Volume Table: False
+		Is Valid: False
+
+		Erase Count Header
+		---------------------
+			data_offset: 8192
+			ec: 1
+			errors: ''
+			hdr_crc: '0x71e56759'
+			image_seq: 1553079310
+			magic: b'UBI#'
+			padding: b'\x00\x00\x00'
+			padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+			version: 1
+			vid_hdr_offset: 4096
+
+
+group_pairs Layout blocks found at PEBs: [[9, 10]]
+description Create Volume: b'persist', ID: 0, Block Cnt: 8
+description Created Image: 1553079310, Volume Cnt: 1
+volume: persist
+leb_virtual_file read loc: 5775360, size: 24
+<ubireader.ubifs.ubifs object at 0x7fa73a0f86d0> UBIFS Common Header file addr: 5775360
+Superblock node
+leb_virtual_file read loc: 5775384, size: 4072
+UBIFS UBIFS Super Block Node file addr: 5775384
+leb_virtual_file read loc: 4464640, size: 24
+UBIFS UBIFS Common Header file addr: 4464640
+	UBIFS Common Header
+	---------------------
+		crc: 0xfe52966
+		errors: 
+		group_type: 0
+		len: 512
+		magic: 101718065
+		node_type: 7
+		padding: b'\x00\x00'
+		sqnum: 5
+
+leb_virtual_file read loc: 4464664, size: 488
+UBIFS UBIFS Master Block Node0 file addr: 4464664
+	UBIFS Master Block Node
+	File offset: 4464664
+	---------------------
+		cmt_no: 0
+		empty_lebs: 1
+		errors: 
+		file_offset: 4464664
+		flags: No orphans
+		gc_lnum: 9
+		hash_lpt: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		hash_root_idx: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		highest_inum: 64
+		hmac: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		idx_lebs: 1
+		ihead_lnum: 10
+		ihead_offs: 4096
+		index_size: 48
+		leb_cnt: 11
+		log_lnum: 3
+		lpt_lnum: 5
+		lpt_offs: 18
+		lsave_lnum: 0
+		lsave_offs: 0
+		lscan_lnum: 8
+		ltab_lnum: 5
+		ltab_offs: 31
+		nhead_lnum: 5
+		nhead_offs: 4096
+		padding: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		root_len: 48
+		root_lnum: 10
+		root_offs: 0
+		total_dark: 16384
+		total_dead: 0
+		total_dirty: 7984
+		total_free: 753664
+		total_used: 160
+
+leb_virtual_file read loc: 4726784, size: 24
+UBIFS UBIFS Common Header file addr: 4726784
+	UBIFS Common Header
+	---------------------
+		crc: 0x1bb43641
+		errors: 
+		group_type: 0
+		len: 512
+		magic: 101718065
+		node_type: 7
+		padding: b'\x00\x00'
+		sqnum: 6
+
+leb_virtual_file read loc: 4726808, size: 488
+UBIFS UBIFS Master Block Node1 file addr: 4726808
+	UBIFS Master Block Node
+	File offset: 4726808
+	---------------------
+		cmt_no: 0
+		empty_lebs: 1
+		errors: 
+		file_offset: 4726808
+		flags: No orphans
+		gc_lnum: 9
+		hash_lpt: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		hash_root_idx: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		highest_inum: 64
+		hmac: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		idx_lebs: 1
+		ihead_lnum: 10
+		ihead_offs: 4096
+		index_size: 48
+		leb_cnt: 11
+		log_lnum: 3
+		lpt_lnum: 5
+		lpt_offs: 18
+		lsave_lnum: 0
+		lsave_offs: 0
+		lscan_lnum: 8
+		ltab_lnum: 5
+		ltab_offs: 31
+		nhead_lnum: 5
+		nhead_offs: 4096
+		padding: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		root_len: 48
+		root_lnum: 10
+		root_offs: 0
+		total_dark: 16384
+		total_dead: 0
+		total_dirty: 7984
+		total_free: 753664
+		total_used: 160
+
+Extracting files
+master_node.root_lnum 10
+master_node.root_offs 0
+leb_virtual_file read loc: 3416064, size: 24
+<function index at 0x7fa73a0e1750> UBIFS Common Header file addr: 3416064
+	UBIFS Common Header
+	---------------------
+		crc: 0xbffcd31b
+		errors: 
+		group_type: 0
+		len: 48
+		magic: 101718065
+		node_type: 9
+		padding: b'\x00\x00'
+		sqnum: 3
+
+leb_virtual_file read loc: 3416088, size: 24
+read bytes in node_buf 24
+<function index at 0x7fa73a0e1750> UBIFS Index Node file addr: 3416088
+	UBIFS Index Node
+	---------------------
+		branches: [UBIFS Branch]
+		child_cnt: 1
+		errors: 
+		level: 0
+
+index -------------------
+<function index at 0x7fa73a0e1750> UBIFS Branch file addr: 3416092
+	UBIFS Branch
+	---------------------
+		errors: 
+		key: {'type': 0, 'ino_num': 1, 'khash': 0}
+		len: 160
+		lnum: 8
+		offs: 0
+
+leb_virtual_file read loc: 2891776, size: 24
+<function index at 0x7fa73a0e1750> UBIFS Common Header file addr: 2891776
+	UBIFS Common Header
+	---------------------
+		crc: 0xce0e7fe6
+		errors: 
+		group_type: 0
+		len: 160
+		magic: 101718065
+		node_type: 0
+		padding: b'\x00\x00'
+		sqnum: 2
+
+leb_virtual_file read loc: 2891800, size: 136
+read bytes in node_buf 136
+<function index at 0x7fa73a0e1750> UBIFS Ino Node file addr: 2891800, ino num: 1
+	UBIFS Ino Node
+	---------------------
+		atime_nsec: 0
+		atime_sec: 9
+		compr_type: 1
+		creat_sqnum: 1
+		ctime_nsec: 0
+		ctime_sec: 9
+		data: b''
+		data_len: 0
+		errors: 
+		flags: 1
+		gid: 0
+		key: {'type': 0, 'ino_num': 1, 'khash': 0}
+		mode: 16877
+		mtime_nsec: 0
+		mtime_sec: 9
+		nlink: 2
+		padding1: b'\x00\x00\x00\x00'
+		padding2: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+		size: 160
+		uid: 0
+		xattr_cnt: 0
+		xattr_names: 0
+		xattr_size: 0
+
+{1: {'ino': UBIFS Ino Node}}
+extract_files Error: No inodes found
